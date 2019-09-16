@@ -1,0 +1,18 @@
+---
+---
+
+@import "{{ site.theme }}";
+kbd {
+    display: inline-block;
+    padding: 3px 5px;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    color: #444d56;
+    vertical-align: middle;
+    background-color: #fafbfc;
+    border: 1px solid #c6cbd1;
+    border-bottom-color: #959da5;
+    border-radius: 5px;
+    box-shadow: inset 0 -1px 0 #959da5;
+}

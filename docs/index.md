@@ -37,7 +37,7 @@ For the "Hotswap" version, to prevent the through-hole LEDs from stuck the remov
 the Charging indicator is a LED under the <kbd>ESC</kbd>, it will glow when a battery is connected and the USB cable is attached and turns out when the battery is fully charged. We use surface-mounted LED for both the "Default" and the "Hotswap" version of the board, and there is a mark to the positive solder pad. For the "Hotswap" version, the backlight LED for <kbd>ESC</kbd> and the charging indicator are side by side, take a distinguish when you installing one.
 >**NOTICE:** Two 1206 surface-mounted Orange LEDs are shipped with the board, you can use them as the Capslock indicator or the charging indicator, or both.
 
-
+![Backlight & Charging Indicator](assets/images/1x/Backlight_N_Charging_Indicator.png "Backlight & Charging Indicator")
 
 ## Firmware
 TO BE DONE
@@ -57,7 +57,20 @@ Once you want to upgrade the firmware or reset the EEPROM of the board, you will
 3. Plug the USB cable in agian while keep pressing the <kbd>ESC</kbd>, until you see the yellow text "Device Connected" on the QMK Toolbox Console.
 
 ### Lock Mode
-In this mode, the board will ignore any key pressing, like it has been locked. this mode is very useful when you're difficult to access the power switch and you want to put the board into your backpack. To enable Lock Mode, you just need to press <kbd>LShift</kbd>+<kbd>RShift</kbd>+<kbd>L</kbd> at the same time, do it agian the board will quit Lock Mode.
+In this mode, the board will ignore any key pressing, like it has been locked. this mode is very useful when you're difficult to access the power switch and you want to put the board into your backpack. To enable Lock Mode, you just need to press <kbd>LShift</kbd>+<kbd>RShift</kbd>+<kbd>L</kbd> at the same time, do it again the board will quit Lock Mode.
 
-### Key Editing
-TO BE DONE
+### VIA Configurator
+
+![VIA Configurator](assets/images/via_configurator.png "VIA Configurator")
+
+The G60BLE use this beautiful and easy-to-use tool to configure the keystroke. Thank you for your great work, Oliva.
+
+You can get this tool here:
+
+<https://github.com/olivia/via-config/releases/latest/>
+
+and an interesting demo video by MechMerlin:
+
+<https://www.youtube.com/watch?v=sAUO7_Ts4Pw/>
+
+The G60BLE is officially supported by the VIA, and you will use the VIA only in the USB mode. The layout displayed in VIA exposed all the possible layouts of G60BLE, you can ignore those keys doesn't belong to your current layout. The screenshot above shows the keys used by an HHKB layout.

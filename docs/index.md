@@ -40,7 +40,7 @@ the Charging indicator is a LED under the <kbd>ESC</kbd>, it will glow when a ba
 ![Backlight & Charging Indicator](assets/images/1x/Backlight_N_Charging_Indicator.png "Backlight & Charging Indicator")
 
 ## Firmware
-TO BE DONE
+Download the latest firmware release from https://github.com/scottywei/bioi-g60ble/releases
 
 ## Usage
 ### USB Mode

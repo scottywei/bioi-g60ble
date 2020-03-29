@@ -40,7 +40,7 @@ the Charging indicator is a LED under the <kbd>ESC</kbd>, it will glow when a ba
 ![Backlight & Charging Indicator](assets/images/1x/Backlight_N_Charging_Indicator.png "Backlight & Charging Indicator")
 
 ## Firmware
-Download the latest firmware release from https://github.com/scottywei/bioi-g60ble/releases
+Download the latest firmware release from <https://github.com/scottywei/bioi-g60ble/releases>
 
 ## Usage
 ### USB Mode
@@ -78,7 +78,7 @@ The G60BLE is officially supported by the VIA, and you will use the VIA only in 
 ### Factory Reset
 If there is something wrong with the keymap of your keyboard, or the Bluetooth mode doesn't work, or you're upgrading your firmware to the latest from an older one, It's highly recommended performing a factory reset operation to your keyboard. Please follow the following instrutions:
 1. Open the QMK Toolbox, bring your keyboard into Bootloader(DFU) Mode, Click "Clear EEPROM" or "Reset EEPROM" button on the QMK Toolbox interface, ignore the warning or question text on the console.
-2. Flash the "eeprom_reset.hex" into your keyboard with the "Flash" button, you can get this HEX file on https://github.com/scottywei/bioi-g60ble/releases or in the "qmk_firmware/quantum/tools/" directory of the master QMK firmware release.
+2. Flash the "eeprom_reset.hex" into your keyboard with the "Flash" button, you can get this HEX file on <https://github.com/scottywei/bioi-g60ble/releases> or in the `qmk_firmware/quantum/tools/` directory of the master QMK firmware release.
 3. Bring the keyboard into Bootloader(DFU) mode again, then flash the latest firmware, leave the keyboard still for 3 to 5 seconds after the firmware is uploaded.
 4. Search for Bluetooth devices from your Operation System, checking if there is a device named "BIOI G60BLE", if there is, means you have successfully reset your keyboard. if not, please refer to step 5.
 5. Program any key to <kbd>F21</kbd> by the VIA configurator, then minimize or close the VIA window, press the <kbd>F21</kbd> key, then back to step 4 to check the Bluetooth Devices, you might need to repeat this operation for serval times. Remember to program that key back to your commonly used one.

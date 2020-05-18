@@ -61,7 +61,7 @@ In this mode, the board will ignore any key pressing, like it has been locked. t
 
 ### VIA Configurator
 
-![VIA Configurator](assets/images/via_configurator.png "VIA Configurator")
+![VIA Configurator](assets/images/via_configurator_1.2.7.png "VIA Configurator")
 
 The G60BLE use this beautiful and easy-to-use tool to configure the keystroke. Thank you for your great work, Oliva.
 
